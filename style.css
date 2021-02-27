@@ -1,0 +1,51 @@
+html {
+  background-color: #f654ae;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 3px;
+  font-family: Arial, sans-serif;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .wrapper {
+    margin: 50px auto 0 10px;
+  }
+
+  .autos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .autoCard {
+    background: #fff;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    background: #1b1b1b;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: left;
+    color: #fff;
+    margin: 20px 10px 10px;
+    font-weight: bold;
+  }
+
+
+  
