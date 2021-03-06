@@ -4,10 +4,9 @@
 
 // Поместить его внутрь тэга body
 
-
 // Создать заголовок H1 "DOM (Document Object Model)"
 
-// Добавить H2 перед DIV с классом wrapper
+// Добавить H1 перед DIV с классом wrapper
 
 // Создать список <ul></ul>
 // Добавить в него 3 элемента с текстом "один, два, три"
@@ -46,19 +45,18 @@
 //   <p>Автомобиль BRAND - YEAR года. Возраст авто - YEARS лет.</p>
 // </div>
 
-// Создать новый DIV с классом cars
+// Создать новый DIV с классом autos
 
-
-// Создать 4 карточки авто, используя функцию generateAutoCard
+// Создать 3 карточки авто, используя функцию generateAutoCard
 const carsList = [
-    {brand: 'Tesla', year: 2015, color: 'red'},
-    {brand: 'Lexus', year: 2016, color: 'silver'},
-    {brand: 'Nissan', year: 2012, color: 'black'},
+    {brand: 'Tesla', year: 2015, color: 'Красный'},
+    {brand: 'Lexus', year: 2016, color: 'Серебристый'},
+    {brand: 'Nissan', year: 2012, color: 'Черный'},
 ]
 
-// Поместить эти 4 карточки внутрь DIV с классом cars
+// Поместить эти 3 карточки внутрь DIV с классом autos
 
-// Поместить DIV c классом cars в на страницу DOM - до DIV с классом wrapper
+// Поместить DIV c классом autos на страницу DOM - до DIV с классом wrapper
 
 // Добавить кнопку Удалить на каждую карточку авто
 
